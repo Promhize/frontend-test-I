@@ -27,12 +27,26 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(html)$/,
+        use: {
+          loader: 'html-loader',
+          options: {
+            attrs: [':data-src'],
+          },
+        },
+      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'bundling.html',
       template: './src/pages/bundling.html',
+      hash: true,
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'artboard.html',
+      template: './src/pages/artboard.html',
       hash: true,
     }),
   ],
