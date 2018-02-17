@@ -1,0 +1,10 @@
+.features {
+  width: calc(100% - 14rem);
+}
+
+.range-dot {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+}
