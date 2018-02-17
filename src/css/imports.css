@@ -1,0 +1,7 @@
+@import './typography.css';
+@import './fonts.css';
+@import './reset.css';
+@import './colors.css';
+
+@tailwind preflight;
+@tailwind utilities;

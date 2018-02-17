@@ -8,7 +8,7 @@ const common = require('./webpack.config.common.js')
 module.exports = merge(common, {
   entry: './src/app.js',
   devServer: {
-    contentBase: path.join(__dirname, 'src/pages/'),
+    contentBase: path.join(__dirname, 'src/'),
     watchContentBase: true,
     hot: true,
     index: 'bundling.html',

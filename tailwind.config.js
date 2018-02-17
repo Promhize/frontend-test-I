@@ -126,6 +126,16 @@ let colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
+
+  'dc-blue': '#0090f7',
+  'dc-green': '#0ac775',
+}
+
+// Set project colors here
+
+let customColors = {
+  'dc-blue': '#0090f7',
+  'dc-green': '#0ac775',
 }
 
 module.exports = {
@@ -792,6 +802,7 @@ module.exports = {
     borderRadius: ['responsive'],
     borderStyle: ['responsive'],
     borderWidths: ['responsive'],
+    colors: ['responsive'],
     cursor: ['responsive'],
     display: ['responsive'],
     flexbox: ['responsive'],

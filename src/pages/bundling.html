@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <title>Bundling</title>
+</head>
+
+<body class='lg:flex bg-grey-lighter text-xs lg:h-screen lg:overflow-hidden'>
+  <aside class='lg:flex flex-col justify-between lg:w-1/5 lg:h-full px-4 bg-grey-lightest'>
+    <div class='sm:mb-8'>
+      <div class='flex justify-between items-center align-middle py-6'>
+        <h1 class=''>
+          <!-- logo -->
+
+          <img src="/static/imgs/logo.png" alt="" class='h-8 w-auto mx-auto'>
+        </h1>
+        <div>
+          <!-- user name & dropdown -->
+          Hi,
+          <b class='text-base font-bold'>Collins</b>
+          <i class='ion-chevron-down pl-2'></i>
+        </div>
+      </div>
+      <div class='mb-8 relative flex items-center'>
+        <i class='ion-ios-search-strong absolute pin-l ml-4 text-grey-light'></i>
+
+        <input placeholder="Search projects, users, questions" type="search" name="" id="" class='border-solid border-grey-lighter border p-4 pl-8 py-3 w-full bold text-grey-darker'>
+      </div>
+      <section class='lg:flex lg:flex-no-wrap lg:flex-col lg:justify-center lg:items-center'>
+        <h2 class='w-full uppercase text-grey-darkest text-sm tracking-wide mb-4'>Your Projects</h2>
+        <ul class='w-full list-reset mb-8'>
+          <li class='bg-grey-lighter p-2 py-2 rounded flex'>
+            <!-- Project -->
+            <div class='w-12 rounded-full overflow-hidden'>
+              <img src="https://static.vecteezy.com/system/resources/previews/000/172/830/large_2x/free-chinese-year-of-the-dog-illustration-vector.jpg"
+                alt="Demo image">
+            </div>
+            <div class=' p-2'>
+              <h3 class='pb-1'>Bid Project</h3>
+              <p class='text-grey-dark font-medium'>Smart bidding for companies</p>
+            </div>
+          </li>
+          <li class='p-2 py-2 rounded flex'>
+            <!-- Project -->
+            <div class='w-12 rounded-full overflow-hidden'>
+              <img src="https://static.vecteezy.com/system/resources/previews/000/172/830/large_2x/free-chinese-year-of-the-dog-illustration-vector.jpg"
+                alt="Demo image">
+            </div>
+            <div class=' p-2'>
+              <h3 class='pb-1'>Floown</h3>
+              <p class='text-grey-dark font-medium'>Simple time scheduling app</p>
+            </div>
+          </li>
+        </ul>
+        <a href="#newproject" class='lg:w-3/5 p-4 rounded text-white bg-dc-blue text-center'>
+          Start a project
+        </a>
+      </section>
+    </div>
+
+    <footer class='w-full'>
+      <ul class='list-reset py-4 border-t border-grey-light border-solid'>
+        <li class='p-4 py-2 rounded flex items-center'>
+          <!-- search new projects -->
+          <!-- <div class='w-12 rounded-full overflow-hidden'>
+            <img src="https://static.vecteezy.com/system/resources/previews/000/172/830/large_2x/free-chinese-year-of-the-dog-illustration-vector.jpg"
+              alt="Demo image">
+          </div> -->
+          <i class='ion-ios-search-strong text-xl text-dc-blue'></i>
+          <div class=' p-2'>
+            <h3 class='pb-1'>
+              Search new projects</h3>
+            <p class='text-grey-dark font-medium'>Search existing projects to work on</p>
+          </div>
+        </li>
+        <li class='p-4 py-2 rounded flex items-center border border-solid border-grey-light'>
+          <!-- search new projects -->
+          <i class='ion-android-people text-xl text-dc-blue'></i>
+          <div class=' p-2'>
+            <h3 class='pb-1'>Manage your network</h3>
+            <p class='text-grey-dark font-medium'>Invite your friends or refer projects</p>
+          </div>
+        </li>
+        <li class='p-4 py-2 rounded flex items-center'>
+          <!-- search new projects -->
+          <i class='ion-android-chat text-xl text-dc-blue'></i>
+          <div class=' p-2'>
+            <h3 class='pb-1'>Search new projects</h3>
+            <p class='text-grey-dark font-medium'>Search existing projects to work on</p>
+          </div>
+        </li>
+      </ul>
+    </footer>
+  </aside>
+  <main class='lg:h-full lg:w-4/5 lg:p-8 p-2'>
+    <div class='h-full overflow-hidden bg-white border border-grey-light border-solid rounded'>
+      <header class='lg:flex justify-between px-8 py-4 border-b border-grey-light border-solid'>
+        <div class='flex items-center text-lg mb-4'>
+          <i class='ion-chevron-left pr-6'></i>
+          <h1 class='text-2xl'>
+            <!-- Heading -->
+            Bid Project
+          </h1>
+        </div>
+
+        <b class='text-center'>
+          <span class='inline-block mb-2 text-sm'>
+            <!-- Price -->
+            <span class='text-grey'>$2000</span>
+            /
+            <span>$5000</span>
+          </span>
+          <div class='w-32'>
+            <div class='bg-grey-light h-2 rounded-full overflow-hidden'>
+              <div class='w-1/2 bg-orange h-2'></div>
+            </div>
+
+          </div>
+        </b>
+      </header>
+      <div class="flex lg:h-full overflow-hidden">
+        <section class='overflow-y-scroll lg:w-3/4 w-3/5 p-4 pb-8 mb-4 lg:h-full'>
+          <!-- devs -->
+          <div class="text-right">
+            <span class='text-grey'>Drag requirements from the right to create tasks for developers</span>
+            <span class='ml-8'>
+              <i class='text-2xl ion-android-close'></i>
+            </span>
+          </div>
+          <div class='flex lg:h-full'>
+            <ul class='list-reset lg:w-4/5'>
+              <li class='lg:flex mb-8'>
+                <div class='lg:mx-8'>
+                  <figure>
+                    <div class='lg:w-48 lg:h-48 w-32 h-32 flex flex-col justify-center items-center mb-4 bg-grey-lightest rounded-full'>
+                      <b class='mb-2 text-sm'>5 tasks</b>
+                      <span class='text-grey'>Complexity level: hard</span>
+                    </div>
+                    <figcaption class='text-xs text-center font-medium text-grey-darker'>
+                      Developer1
+                    </figcaption>
+                  </figure>
+
+                </div>
+
+                <div class='flex flex-wrap justify-center items-center' style='width: calc(100% - 14rem)'>
+                  <ul class='list-reset flex flex-wrap w-full font-medium'>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Design</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Marketing</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>iOS</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Profiles</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Search</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Web</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Hybrid</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Logo</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Design</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+
+                  </ul>
+                </div>
+
+              </li>
+              <li class='lg:flex mb-8'>
+                <div class='lg:mx-8'>
+                  <figure>
+                    <div class='lg:w-48 lg:h-48 w-32 h-32 flex flex-col justify-center items-center mb-4 bg-grey-lightest rounded-full cursor-pointer'>
+                      <b class='mb-2 text-5xl'>+</b>
+                    </div>
+                  </figure>
+
+                </div>
+
+                <div class='flex flex-wrap justify-center items-center' style='width: calc(100% - 14rem)'>
+                  <ul class='list-reset flex flex-wrap w-full font-medium'>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Design</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Marketing</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Coding</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>iOS</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+
+                  </ul>
+                </div>
+
+              </li>
+              <li class='lg:flex mb-8'>
+                <div class='lg:mx-8'>
+                  <figure>
+                    <div class='lg:w-48 lg:h-48 w-32 h-32 flex flex-col justify-center items-center mb-4 bg-grey-lightest rounded-full'>
+                      <b class='mb-2 text-sm'>5 tasks</b>
+                      <span class='text-grey'>Complexity level: hard</span>
+                    </div>
+                    <figcaption class='text-xs text-center font-medium text-grey-darker'>
+                      Developer1
+                    </figcaption>
+                  </figure>
+
+                </div>
+
+                <div class='flex flex-wrap justify-center items-center' style='width: calc(100% - 14rem)'>
+                  <ul class='list-reset flex flex-wrap w-full font-medium'>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Design</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Marketing</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>iOS</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Profiles</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Search</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Web</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Hybrid</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Logo</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+                    <li class='m-1 p-2 pl-8 pr-4 rounded-full bg-blue-lightest text-dc-blue '>
+                      <span>Design</span>
+                      <i class='ion-android-close'></i>
+                    </li>
+
+                  </ul>
+                </div>
+
+              </li>
+            </ul>
+            <div class='flex justify-center items-center lg:w-1/5 lg:h-full text-grey'>
+              <span>4 items added</span>
+            </div>
+          </div>
+
+        </section>
+        <aside class='lg:w-1/4 w-2/5 lg:h-full border-l border-solid border-grey-light p-4'>
+          <!-- configuration -->
+          <div class='mb-8 mt-4 text-grey-dark'>
+            <h3 class='text-sm mb-4 font-normal'>Cost Estimator</h3>
+            <div>
+              <!-- Range -->
+              <div class='flex justify-between mb-2 font-medium text-grey-darker'>
+                <span>$10,000</span>
+                <span>$15,000</span>
+                <span>$25,000</span>
+              </div>
+              <div class='h-2 rounded-full overflow-hidden bg-blue-lightest '>
+                <div class='inline-block w-1/2 h-2 bg-dc-blue'></div>
+              </div>
+            </div>
+          </div>
+
+          <ul class='list-reset flex flex-wrap p-4 mb-8'>
+            <li class='m-1 p-1 px-4 rounded-full bg-blue-lightest text-dc-blue '>
+              <span>Design</span>
+              <i></i>
+            </li>
+            <li class='m-1 p-1 px-4 rounded-full bg-blue-lightest text-dc-blue '>
+              <span>Design</span>
+              <i></i>
+            </li>
+            <li class='m-1 p-1 px-4 rounded-full bg-blue-lightest text-dc-blue '>
+              <span>Design</span>
+              <i></i>
+            </li>
+            <li class='m-1 p-1 px-4 rounded-full bg-blue-lightest text-dc-blue '>
+              <span>Design</span>
+              <i></i>
+            </li>
+            <li class='m-1 p-1 px-4 rounded-full bg-blue-lightest text-dc-blue '>
+              <span>Design</span>
+              <i></i>
+            </li>
+            <li class='m-1 p-1 px-4 rounded-full bg-blue-lightest text-dc-blue '>
+              <span>Design</span>
+              <i></i>
+            </li>
+            <li class='m-1 p-1 px-4 rounded-full bg-blue-lightest text-dc-blue '>
+              <span>Design</span>
+              <i></i>
+            </li>
+            <li class='m-1 p-1 px-4 rounded-full bg-blue-lightest text-dc-blue '>
+              <span>Design</span>
+              <i></i>
+            </li>
+            <li class='m-1 p-1 px-4 rounded-full bg-blue-lightest text-dc-blue '>
+              <span>Design</span>
+              <i></i>
+            </li>
+          </ul>
+          <div class='lg:flex mt-8 pt-8'>
+            <a href="#newproject" class='inline-block w-full lg:w-3/4 py-4 mr-4 mb-4 lg:mb-0 rounded text-white bg-dc-blue text-center'>
+              Upload to engine
+            </a>
+            <a href="#newproject" class='inline-block w-full lg:w-3/4 py-4 rounded text-dc-blue border border-grey-light border-solid text-center'>
+              Cancel
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>

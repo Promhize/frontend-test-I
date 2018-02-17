@@ -7,7 +7,8 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.dev.js",
-    "prod": "cross-env NODE_ENV=production rm ./dist/* -rf && webpack -p --config webpack.config.prod.js",
+    "prod":
+      "cross-env NODE_ENV=production rm ./dist/* -rf && webpack -p --config webpack.config.prod.js",
     "eslint d": "eslint --debug",
     "tailwind:init": "tailwind init tailwind.config.js"
   },
