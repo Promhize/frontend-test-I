@@ -1,3 +1,17 @@
+## Solution
+
+Run
+
+```
+yarn install
+```
+
+and
+
+```
+yarn run dev
+```
+
 ## Front-end Developer Test
 
 ### Devcenter Frontend Developer Test I
@@ -22,21 +36,17 @@ If you choose to use build tools to compile your CSS and Javascript (such as SAS
 
 The fonts used in the designs are Circular see here - https://www.dropbox.com/s/h7m975lvy8bz5gn/Circular%20Fonts.zip?dl=0
 
-
 ## Cross-browser inconsistencies
 
 If you get around to doing cross-browser testing, for the sake of this project do not worry about any versions of Internet Explorer below version 9. The most up-to-date versions of Chrome, Firefox and Safari will also suffice. Include details in the README file of what cross-browser testing you have been able to do.
-
 
 ## Responsive Design
 
 For extra credit, ensure that the site scales well on mobile (we'll let you figure out the breakpoints).
 
-
 ## Clean code
 
 This fictitious project is part of a larger plan to reuse templates for multiple properties. When authoring your CSS ensure that it is easy for another developer to find and change things such as fonts and colours.
-
 
 ## Good luck!
 
