@@ -132,8 +132,8 @@
             </div>
             <div class='lg:w-3/5 text-grey'>
               <div class='border border-grey-light border-solid rounded text-sm text-grey p-4 mb-2 leading-normal relative'>
-                <span style='margin-left: -0.58rem ' class='flex items-center h-2 leading-none overflow-hidden absolute pin-l px-1 text-grey-light
-                  bg-white '>
+                <span class='flex items-center h-2 leading-none overflow-hidden absolute pin-l px-1 text-grey-light
+                  bg-white message-arrow-offset--left'>
                   <i class='text-base ion-ios-arrow-left '></i>
                 </span>
                 <p>Hey would you mind taking a look at this?
@@ -146,8 +146,8 @@
           <div class='flex justify-end'>
             <div class='lg:w-3/5 text-grey'>
               <div class='border border-grey-light border-solid rounded text-sm text-grey p-4 mb-2 leading-normal relative'>
-                <span style='margin-right: -0.58rem ' class='flex items-center h-2 leading-none overflow-hidden absolute pin-r px-1 text-grey-light
-                    bg-white '>
+                <span class='flex items-center h-2 leading-none overflow-hidden absolute pin-r px-1 text-grey-light
+                    bg-white message-arrow-offset--right'>
                   <i class='text-base ion-ios-arrow-right '></i>
                 </span>
                 <p class='mb-3'>Absolute love it. Thanks guys, your turn around rate is really quick. Good work guys. I attached a couple
@@ -183,8 +183,8 @@
             </div>
             <div class='lg:w-3/5 text-grey'>
               <div class='border border-grey-light border-solid rounded text-sm text-grey p-4 mb-2 leading-normal relative'>
-                <span style='margin-left: -0.58rem ' class='flex items-center h-2 leading-none overflow-hidden absolute pin-l px-1 text-grey-light
-                    bg-white '>
+                <span class='flex items-center h-2 leading-none overflow-hidden absolute pin-l px-1 text-grey-light
+                    bg-white message-arrow-offset--left'>
                   <i class='text-base ion-ios-arrow-left '></i>
                 </span>
                 <p>Sweet. Might be worth mentioning that they can switch to standard?
@@ -197,7 +197,7 @@
               <span>11:40</span>
             </div>
           </div>
-          <div style="margin-bottom: 100px" class='mb-8 text-grey'>
+          <div class='mb-100 text-grey'>
             <div class='h-48 flex flex-col justify-between border border-grey-light border-solid rounded text-sm text-grey p-4 mb-2 leading-normal relative'>
               <input placeholder="Send a message or attach a file" type="text" name="" id="" class='text-grey'>
               <div class='flex justify-between'>
@@ -220,94 +220,97 @@
         </section>
         <aside class='lg:w-1/4 lg:h-full overflow-y-scroll border-l border-solid border-grey-light p-4 px-8'>
           <!-- configuration -->
-          <header class='mb-4 border-b border-grey border-solid'>
-            <ul class='list-reset lg:flex justify-between text-grey'>
-              <li class=''>
-                <h3 class='font-normal'>Brief</h3>
-              </li>
-              <li class='flex flex-col'>
-                <h3 class='font-normal text-dc-blue'>Milestones</h3>
-                <div class='border-b border-solid border-blue pt-1 '></div>
-              </li>
-              <li class=''>
-                <h3 class='font-normal'>Files</h3>
-              </li>
-              <li class=''>
-                <h3 class='font-normal'>Agreement</h3>
-              </li>
-            </ul>
-          </header>
-          <div class='flex justify-between bg-grey-lighter border-t border-solid border-grey-light rounded-sm p-4 mb-6'>
-            <span>2 of 3 remaining</span>
-            <a href="#" class="text-dc-blue">All milestones</a>
-          </div>
-          <div class='mb-8'>
-            <ul class="list-reset">
-              <li class="flex mb-4">
-                <i class="ion-android-checkbox text-dc-blue text-xl"></i>
-                <div class='px-2'>
-                  <span class="text-sm text-grey line-through mb-1">labels</span>
-                  <br>
-                  <span class='text-xxs px-1 leading-loose bg-red text-white'>Dec 20</span>
-                </div>
-              </li>
-              <li class="flex flex-wrap mb-4">
-                <div class="w-full">
+          <div class='lg:full mb-100'>
+            <header class='mb-4 border-b border-grey border-solid'>
+              <ul class='list-reset lg:flex justify-between text-grey'>
+                <li class=''>
+                  <h3 class='font-normal'>Brief</h3>
+                </li>
+                <li class='flex flex-col'>
+                  <h3 class='font-normal text-dc-blue'>Milestones</h3>
+                  <div class='border-b border-solid border-blue pt-1 '></div>
+                </li>
+                <li class=''>
+                  <h3 class='font-normal'>Files</h3>
+                </li>
+                <li class=''>
+                  <h3 class='font-normal'>Agreement</h3>
+                </li>
+              </ul>
+            </header>
+            <div class='flex justify-between bg-grey-lighter border-t border-solid border-grey-light rounded-sm p-4 mb-6'>
+              <span>2 of 3 remaining</span>
+              <a href="#" class="text-dc-blue">All milestones</a>
+            </div>
+            <div class='mb-8'>
+              <ul class="list-reset">
+                <li class="flex mb-4">
                   <i class="ion-android-checkbox text-dc-blue text-xl"></i>
                   <div class='px-2'>
-                    <span class="text-sm text-grey line-through mb-1">Do some kind of lowest common denominator between the progress and discussion views</span>
-                    <span class='text-xxs px-1 leading-loose bg-red text-white'>Dec 31st</span>
+                    <span class="text-sm text-grey line-through mb-1">labels</span>
+                    <br>
+                    <span class='text-xxs px-1 leading-loose bg-red text-white'>Dec 20</span>
                   </div>
-                </div>
+                </li>
+                <li class="flex flex-wrap mb-4">
+                  <div class="w-full">
+                    <i class="ion-android-checkbox text-dc-blue text-xl"></i>
+                    <div class='px-2'>
+                      <span class="text-sm text-grey line-through mb-1">Do some kind of lowest common denominator between the progress and discussion views</span>
+                      <span class='text-xxs px-1 leading-loose bg-red text-white'>Dec 31st</span>
+                    </div>
+                  </div>
 
-                <div class='border border-grey-light border-solid rounded text-sm text-grey p-4 mb-2 leading-normal relative'>
+                  <div class='border border-grey-light border-solid rounded text-sm text-grey p-4 mb-2 leading-normal relative'>
 
+                    <div class="flex w-full mb-3">
+                      <i class="ion-android-checkbox-outline-blank text-grey-light text-xl"></i>
+                      <div class='px-2'>
+                        <span class="text-sm text-grey line-through mb-1">Make this site easier and faster if all sub sections had that</span>
+                        <br>
+                        <span class='text-xxs px-1 leading-loose bg-grey-light text-white'>Dec 31st</span>
+                      </div>
+                    </div>
+                    <div class='ml-6 mb-3 text-xs'>Create this quick quick. This is the direction I'm thinking.</div>
+                    <div class="ml-6 mb-3">
+                      <h6 class="font-normal text-xs">Cost</h6>
+                      <b class='font-bold text-red-dark'>$2500.00</b>
+                    </div>
+                    <div class="ml-6 mb-3">
+                      <h6 class="font-normal text-xs">Deliverables</h6>
+                      <b class='font-bold text-red-dark'>.psd file</b>
+                    </div>
+                  </div>
                   <div class="flex w-full mb-3">
                     <i class="ion-android-checkbox-outline-blank text-grey-light text-xl"></i>
                     <div class='px-2'>
-                      <span class="text-sm text-grey line-through mb-1">Make this site easier and faster if all sub sections had that</span>
+                      <span class="text-sm text-grey mb-1">Send designs to the printer</span>
                       <br>
-                      <span class='text-xxs px-1 leading-loose bg-grey-light text-white'>Dec 31st</span>
-                    </div>
-                  </div>
-                  <div class='ml-6 mb-3 text-xs'>Create this quick quick. This is the direction I'm thinking.</div>
-                  <div class="ml-6 mb-3">
-                    <h6 class="font-normal text-xs">Cost</h6>
-                    <b class='font-bold text-red-dark'>$2500.00</b>
-                  </div>
-                  <div class="ml-6 mb-3">
-                    <h6 class="font-normal text-xs">Deliverables</h6>
-                    <b class='font-bold text-red-dark'>.psd file</b>
-                  </div>
-                </div>
-                <div class="flex w-full mb-3">
-                  <i class="ion-android-checkbox-outline-blank text-grey-light text-xl"></i>
-                  <div class='px-2'>
-                    <span class="text-sm text-grey mb-1">Send designs to the printer</span>
-                    <br>
-                    <div>
-                      <span class='text-xxs px-1 leading-loose bg-grey-light text-white'>Dec 31st</span>
-                      <i class='ion-ios-locked-outline mx-2'></i>
-                    </div>
+                      <div>
+                        <span class='text-xxs px-1 leading-loose bg-grey-light text-white'>Dec 31st</span>
+                        <i class='ion-ios-locked-outline mx-2'></i>
+                      </div>
 
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class='flex flex-wrap justify-between bg-grey-lightest border-t border-solid border-grey-light rounded-sm p-4 mb-6'>
-            <h3 class='w-full text-sm text-grey-darkest'>Teammates</h3>
-            <div class='flex flex-wrap mt-2'>
-              <figure class="w-10 rounded overflow-hidden mr-2">
-                <img src="https://static.vecteezy.com/system/resources/previews/000/172/830/large_2x/free-chinese-year-of-the-dog-illustration-vector.jpg"
-                  alt="" class=''>
-              </figure>
-              <figure class="w-10 rounded overflow-hidden mr-2">
-                <img src="https://static.vecteezy.com/system/resources/previews/000/172/830/large_2x/free-chinese-year-of-the-dog-illustration-vector.jpg"
-                  alt="" class=''>
-              </figure>
+                </li>
+              </ul>
+            </div>
+            <div class='flex flex-wrap justify-between bg-grey-lightest border-t border-solid border-grey-light rounded-sm p-4 mb-6'>
+              <h3 class='w-full text-sm text-grey-darkest'>Teammates</h3>
+              <div class='flex flex-wrap mt-2'>
+                <figure class="w-10 rounded overflow-hidden mr-2">
+                  <img src="https://static.vecteezy.com/system/resources/previews/000/172/830/large_2x/free-chinese-year-of-the-dog-illustration-vector.jpg"
+                    alt="" class=''>
+                </figure>
+                <figure class="w-10 rounded overflow-hidden mr-2">
+                  <img src="https://static.vecteezy.com/system/resources/previews/000/172/830/large_2x/free-chinese-year-of-the-dog-illustration-vector.jpg"
+                    alt="" class=''>
+                </figure>
+              </div>
             </div>
           </div>
+
         </aside>
       </div>
     </div>
