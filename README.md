@@ -12,6 +12,9 @@ and
 yarn run dev
 ```
 
+Bundling page: localhost:2018
+Artboard page: localhost:2018/artboard.html
+
 ## Front-end Developer Test
 
 ### Devcenter Frontend Developer Test I
